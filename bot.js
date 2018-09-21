@@ -14,7 +14,7 @@ const log = message => {
 };
 
 client.on("ready", () => {
-  client.user.setGame(prefix + "öneri");
+  client.user.setGame(prefix + "yardım !öneri");
   console.log("Bağlandım!")   
 });
 

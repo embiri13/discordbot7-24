@@ -14,7 +14,7 @@ const log = message => {
 };
 
 client.on("ready", () => {
-  client.user.setGame(prefix + "yardım !öneri");
+  client.user.setGame(prefix + "yardım|Bot Artık Hostinge Bağlı H.o");
   console.log("Bağlandım!")   
 });
 

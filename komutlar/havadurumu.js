@@ -25,6 +25,6 @@ module.exports.run = (client, message, args) => {
   })
 }
 
-module.exports.help = {
+exports.help = {
   name: 'hava-durumu'
 };

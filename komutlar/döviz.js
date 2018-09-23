@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 
-module.exports.run = (client, message) => {
+exports.run = (client, message) => {
 var request = require('request');
 request('https://www.doviz.com/api/v1/currencies/USD/latest', function (error, response, body) {
     if (error) return console.log('Hata:', error);
@@ -16,6 +16,6 @@ request('https://www.doviz.com/api/v1/currencies/EUR/latest', function (error, r
 })
     };
 
-module.exports.help = {
+exports.help = {
   name: 'döviz'
 };

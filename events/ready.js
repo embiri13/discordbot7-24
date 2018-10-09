@@ -5,8 +5,7 @@ const ayarlar = require('../ayarlar.json');
 
 var oyun = [
         "client.user.setGame(prefix + "yardım|Bot Artık Hostinge Bağlı");",
-        "client.user.setGame(prefix + "yardım | " + client.guilds.size + " Sunucu " + client.users.size + " Kullanıcı ", );",
-        "client.user.setGame(prefix + "yardım|"
+        "client.user.setGame(prefix + "yardım | " + client.guilds.size + " Sunucu " + client.users.size + " Kullanıcı ", );"
     ];
 
     setInterval(function() {
